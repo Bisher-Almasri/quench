@@ -1,0 +1,35 @@
+{
+  "" : {
+    "const-values" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/LucideIcons-master.swiftconstvalues",
+    "dependencies" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/LucideIcons-master.d",
+    "diagnostics" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/LucideIcons-master.dia",
+    "emit-module-dependencies" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/LucideIcons-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/LucideIcons-master-emit-module.dia",
+    "swift-dependencies" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/LucideIcons-master.swiftdeps"
+  },
+  "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/Sources/LucideIcons/Lucide+iOS.swift" : {
+    "index-unit-output-path" : "/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide+iOS.o",
+    "llvm-bc" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide+iOS.bc",
+    "object" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide+iOS.o"
+  },
+  "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/Sources/LucideIcons/Lucide+macOS.swift" : {
+    "index-unit-output-path" : "/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide+macOS.o",
+    "llvm-bc" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide+macOS.bc",
+    "object" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide+macOS.o"
+  },
+  "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/Sources/LucideIcons/Lucide.swift" : {
+    "index-unit-output-path" : "/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide.o",
+    "llvm-bc" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide.bc",
+    "object" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/Lucide.o"
+  },
+  "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/bisheralmasri/Library/Developer/Xcode/DerivedData/Quench-gfpwibzorjhispcradfssdxcgojn/SourcePackages/checkouts/lucide-icons-swift/build/LucideIcons.build/Release-iphoneos/LucideIcons.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  }
+}

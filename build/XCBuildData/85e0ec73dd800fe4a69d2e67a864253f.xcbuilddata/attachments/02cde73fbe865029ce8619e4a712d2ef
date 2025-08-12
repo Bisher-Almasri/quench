@@ -1,0 +1,4 @@
+module LucideIcons {
+header "LucideIcons-Swift.h"
+export *
+}

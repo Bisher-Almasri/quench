@@ -1,0 +1,17 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "e4057805932df8bba31a5ba53b5faf1b12b5eb824d58f1e78d2009f8b916457a"
+build_start_time: [1755723439, 343100000]
+build_end_time: [1755723445, 257192000]
+inputs:
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/ColorTheme.swift": !dirty [1755149130, 469136626]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/ContentView.swift": !dirty [1755643138, 301780056]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Item.swift": !dirty [1755398504, 557787779]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Navbar.swift": !dirty [1755058995, 772462330]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/QuenchApp.swift": !dirty [1754962114, 334058763]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Scenes/Awards.swift": !dirty [1755723347, 76225675]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Scenes/Character.swift": !dirty [1755723359, 242301635]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Scenes/Stats.swift": !dirty [1755723368, 979721835]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Scenes/Track.swift": !dirty [1755723365, 269190840]
+  "/Users/bisheralmasri/dev/xcode/ios/Quench/Quench/Utils.swift": !dirty [1755288197, 494975119]
+  ? "/Users/bisheralmasri/dev/xcode/ios/Quench/build/Quench.build/Release-iphoneos/Quench.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1755723439, 287655709]
