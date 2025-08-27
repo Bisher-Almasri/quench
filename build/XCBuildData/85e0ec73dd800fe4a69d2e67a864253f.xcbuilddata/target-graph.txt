@@ -1,9 +1,0 @@
-Target dependency graph (4 targets)
-Target 'Quench' in project 'Quench'
-➜ Explicit dependency on target 'LucideIcons' in project 'LucideIcons'
-Target 'LucideIcons' in project 'LucideIcons'
-➜ Explicit dependency on target 'LucideIcons' in project 'LucideIcons'
-➜ Explicit dependency on target 'LucideIcons_LucideIcons' in project 'LucideIcons'
-Target 'LucideIcons' in project 'LucideIcons'
-➜ Explicit dependency on target 'LucideIcons_LucideIcons' in project 'LucideIcons'
-Target 'LucideIcons_LucideIcons' in project 'LucideIcons' (no dependencies)
