@@ -19,58 +19,11 @@ import Svg, {
   Stop,
   Circle,
 } from "react-native-svg";
-import * as Notifications from "expo-notifications";
-import * as Device from "expo-device";
-
-if (Device.isDevice) {
-  Notifications.setNotificationHandler({
-    handleNotification: async () => ({
-      shouldShowAlert: true,
-      shouldPlaySound: true,
-      shouldSetBadge: false,
-      shouldShowBanner: true,
-      shouldShowList: true,
-    }),
-  });
-}
 
 export default function Track() {
   const { items, addWater, dailyIntake, dropletPoints } = useWater();
   const scheme = useColorScheme();
   const theme = getTheme(scheme);
-  const [permissionGranted, setPermissionGranted] = useState(false);
-
-  useEffect(() => {
-    registerForPushNotificationsAsync().then(granted => setPermissionGranted(granted));
-  }, []);
-
-    const scheduleWaterReminders = async () => {
-    if (!permissionGranted) {
-      alert("Please enable notifications in settings.");
-      return;
-    }
-
-    await Notifications.cancelAllScheduledNotificationsAsync();
-
-    await Notifications.scheduleNotificationAsync({
-      content: {
-        title: "💧 Time to Hydrate!",
-        body: "Drink a glass of water to stay healthy.",
-      },
-      trigger: {
-        type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL,
-        seconds: 2 * 60 * 60,
-        repeats: true,
-      } as Notifications.TimeIntervalTriggerInput,
-    });
-
-    alert("Hydration reminders set!");
-  };
-
-  const cancelReminders = async () => {
-    await Notifications.cancelAllScheduledNotificationsAsync();
-    alert("Hydration reminders canceled.");
-  };
 
   const dailyGoal = 2000;
   const dailyProgress = Math.min(dailyIntake / dailyGoal, 1);
@@ -321,28 +274,6 @@ const StatThing = ({
   </View>
 );
 
-async function registerForPushNotificationsAsync(): Promise<boolean> {
-  if (Device.isDevice) {
-    const { status: existingStatus } = await Notifications.getPermissionsAsync();
-    let finalStatus = existingStatus;
-
-    if (existingStatus !== "granted") {
-      const { status } = await Notifications.requestPermissionsAsync();
-      finalStatus = status;
-    }
-    return finalStatus === "granted";
-  } else {
-    alert("Must use physical device for Notifications");
-    return false;
-  }
-
-  if (Platform.OS === "android") {
-    Notifications.setNotificationChannelAsync("default", {
-      name: "default",
-      importance: Notifications.AndroidImportance.MAX,
-    });
-  }
-}
 
 const styles = StyleSheet.create({
   header: {

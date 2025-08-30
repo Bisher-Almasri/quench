@@ -2,7 +2,7 @@
   "expo": {
     "name": "Quench",
     "slug": "Quench",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "quench",
@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hackclub.Quench"
     },
     "web": {
       "bundler": "metro",
